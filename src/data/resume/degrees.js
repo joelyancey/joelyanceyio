@@ -1,15 +1,21 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'University of California, Los Angeles; College of Letters and Science',
+    degree: 'Neuroscience, BSc',
+    link: 'https://www.ucla.edu/',
+    year: 2017,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'University of California, Los Angeles; Samueli School of Engineering and Applied Science',
+    degree: 'Minor',
+    link: 'https://samueli.ucla.edu/',
+    year: 2017,
+  },
+  {
+    school: 'University of California, San Diego; Extension',
+    degree: 'UNIX & Linux System Administration Certificate',
+    link: 'https://extendedstudies.ucsd.edu/',
+    year: 2021,
   },
 ];
 

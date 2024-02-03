@@ -1,31 +1,29 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import Main from '../layouts/Main';
 
 const Index = () => (
   <Main
-    description={"Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
-    + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'}
+    description={"Joel Yancey's website"}
   >
     <article className="post" id="index">
-      <header>
-        <div className="title">
-          <h2><Link to="/">About this site</Link></h2>
-          <p>
-            A beautiful, responsive, statically-generated,
-            react application written with modern Javascript.
-          </p>
-        </div>
-      </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
-        or you can check out my {' '}
-        <Link to="/resume">resume</Link>, {' '}
-        <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
+
+      <p>
+        My name is Joel and I love Linux. In 2017 I graduated from UCLA with a BSc in Neuroscience
+        and Bioinformatics Minor. The minor was through the UCLA Samueli School of Engineering.
+        Over the years I completed 15 courses with coding components, in languages such as C++,
+        Python, and R. I have an irrational love of MATLAB since I programmed my very first
+        graphical user interface (GUI) with it circa 2012. In 2020 I earned a certificate in UNIX
+        & Linux System Administration. For 16 months I worked in a Neurodegeneration
+        lab at Sanford Burnham Prebys Medical Discovery Institute located in La Jolla, California.
+        I then got the job offer of a lifetime and for &gt;3 years I worked Jr. Systems
+        Administrator at the Computational Neurobiology Laboratory at The Salk Institute. I was
+        promoted to the role of Scientific Programmer by my PI Terrence Sejnowski. In this role
+        I was able to code full-time, and I developed a deep passion for software development.
+        Through the mentorship of Tom Bartol I learned data-driven design skills, plus all about
+        simulating and visualizing in 3D what happens at a synapse. I particularly love building
+        practical GUIs with emphasis on User Experience (UX). To be continued...
       </p>
-      <p> Source available <a href="https://github.com/mldangelo/personal-site">here</a>.</p>
     </article>
   </Main>
 );

@@ -59,12 +59,6 @@ const Skills = ({ skills, categories }) => {
   return (
     <div className="skills">
       <div className="link-to" id="skills" />
-      <div className="title">
-        <h3>Skills</h3>
-        <p>Note: I think these sections are silly, but everyone seems to have one.
-          Here is a *mostly* honest overview of my skills.
-        </p>
-      </div>
       <div className="skill-button-container">
         {getButtons()}
       </div>
@@ -74,6 +68,21 @@ const Skills = ({ skills, categories }) => {
     </div>
   );
 };
+// return (
+//     <div className="skills">
+//       <div className="link-to" id="skills" />
+//       <div className="title">
+//         <h3>Skills</h3>
+//       </div>
+//       <div className="skill-button-container">
+//         {getButtons()}
+//       </div>
+//       <div className="skill-row-container">
+//         {getRows()}
+//       </div>
+//     </div>
+// );
+// };
 
 Skills.propTypes = {
   skills: PropTypes.arrayOf(PropTypes.shape({

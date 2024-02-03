@@ -13,156 +13,70 @@
  */
 const work = [
   {
-    name: 'Smile Identity',
-    position: 'VP Engineering & Head of AI',
-    url: 'https://smileidentity.com',
-    startDate: '2022-01-01',
-    summary: `Smile builds machine learning APIs to compare user submitted photos to ID documents. Our APIs are
-    used by hundreds of thousands of people every day to access financial services. As VP of Engineering,
-    I provide technical leadership on high-impact projects, influence and coach a distributed team of engineers,
-    and facilitate alignment and clarity across teams on goals, outcomes, and timelines. I was promoted
-    from Director of Engineering to VP of Engineering in April 2022, and then to VP of Engineering and Head
-    of AI in November 2022. I lead a 20+ person engineering org. I directly manage ~8 engineers and spend
-    >50% of my time writing code.`,
+    name: 'Computational Neurobiology Laboratory (Sejnowski Lab), Salk Institute for Biological Studies',
+    position: 'Scientific Programmer I',
+    url: 'https://www.salk.edu/',
+    startDate: '2022-11-01',
+    endDate: '2023-12-01',
+    summary: '',
     highlights: [
-      'Redesigned engineering processes for bug tracking, meetings, and standups. Improved culture for code reviews, blameless post-mortems, and retrospectives.',
-      'Re-architected engineering hiring and onboarding processes. Recruited several strong engineers.',
-      'Reorged engineering teams to focus on product delivery. Created a new team to focus on ML infrastructure.',
-      'Lead re-design of internal APIs for inference. Built new computer vision pipelines for industry leading certifications (NIST/iBeta liveness).',
-      'Pitched, designed, developed, deployed, and maintain a fraud detection product based on 1-N facial recognition using embeddings and vector search.',
+      'Developed a Python API for C++ programs used in image registration/image processing',
+      'Built and maintained AlignEM-SWiFT, a cross-platform Qt/GUI application for EM image registration (or "alignment"). The app is currently deployed and in daily use by scientists on the high performance computer (HPC) Lonestar6 at the Texas Advanced Computing Center (TACC). It has been cited in published and ongoing research. It runs on macOS, Debian, Ubuntu, and CentOS.',
+      'Designed deployment and distribution strategies for compiled software application to run on HPC systems including systems at TACC',
+      'Debugged and improved data pipeline for 3D reconstruction and cell modeling (MCell)',
     ],
   },
   {
-    name: 'Skeptical Investments',
-    position: 'Co-founder',
-    url: 'http://skepticalinvestments.biz',
-    startDate: '2017-04-01',
-    summary: `Skeptical Investments is a micro-vc fund focused on Angel, Seed, and Series-A
-    YC companies.`,
+    name: 'Computational Neurobiology Laboratory (Sejnowski Lab), Salk Institute for Biological Studies',
+    position: 'Jr. Systems Administrator',
+    url: 'https://www.salk.edu/',
+    startDate: '2019-10-01',
+    endDate: '2022-11-01',
+    summary: '',
     highlights: [
-      'Created the InstaSafe. Fast, automated investment docs for YC companies.',
-      'Advise several startups in the fund.',
+      'Maintained essential IT infrastructure used in computational neurobiology research, including operating systems, security tools, applications, servers, email systems, laptops, desktops, software, and hardware',
+      'Installed, configured, maintained, upgraded workstations and experiment rigs running Linux or Windows',
+      'Wrote bash scripts, created custom software images, and security tested Debian-based computing machines',
+      'Configured virtual machines for security testing, system monitoring, and performance testing',
+      'Assembled compute workstations to meet the hardware and software needs of Salk personnel',
     ],
   },
   {
-    name: 'Arthena',
-    position: 'Co-founder & C.T.O.',
+    name: 'Sanford Burnham Prebys Medical Discovery Institute (Xu/Huang Lab)',
+    position: 'Research Assistant I/Lab Manager',
     url: 'https://arthena.com',
-    startDate: '2014-01-01',
-    endDate: '2022-01-01',
-    summary: `Arthena is a Series A Company funded by <a href="https://www.anthemis.com/">Athemis</a>,
-    <a href="https://foundationcapital.com">Foundation Capital</a>, and <a href="https://ycombinator.com/">YC</a>.
-    We develop quantitative strategies to predict the value of fine art and build investment products.
-    I ran a 20-person product and engineering org for 8 years. We were acquired by
-    <a href="https://www.masterworks.com/">Masterworks</a> in 2023.`,
+    startDate: '2018-07-01',
+    endDate: '2019-10-01',
+    summary: '',
     highlights: [
-      'Built production, online, end-to-end optimized machine learning pipelines for time-series prediction.',
-      'Designed micro-service architecture around: data collection, data integrity, feature engineering, research, strategy, backtesting, deployment, and reporting.',
-      "Set and communicated team priorities that supported the broader organization's goals. Aligned strategy, processes, and decision-making across teams.",
-      "Set clear expectations with individuals based on their level and role and aligned them to the broader organization's goals. Met regularly with individuals to discuss performance and development, and provided feedback and coaching.",
-      'Developed the long-term technical vision and roadmap within, and often beyond, the scope of my teams. Evolved the roadmap to meet anticipated future requirements and infrastructure needs.',
+      'Developed a novel phagocytosis quantification assay used in published research (Journal of Experimental Medicine)',
+      'Wrote Python scripts and Excel VBA macros for analysis of genetic and other bioinformatics data',
+      'Analyzed batches of Next-Gen Sequencing (NGS) data, such as RNA-seq data to investigate differential gene expression',
+      'Managerial responsibilities included purchasing, training coworkers in the use of scientific instruments, acquisition and installation of laboratory equipment, primary contact for all oversight compliance, i.e. AAALAC and OSHA',
     ],
   },
   {
-    name: 'Enveritas',
-    position: 'ML Engineering Contractor',
-    url: 'http://enveritas.org',
-    startDate: '2016-09-01',
-    endDate: '2018-01-01',
-    summary: `Enveritas is a non-profit that works with coffee farmers to improve their livelihoods.
-    I joined on day one and helped build a variety of tools to collect and analyze data. I also advised
-    on technical strategy, helped hire engineers, and advised on their YC application.`,
+    name: 'Buonomano Lab @ University of California, Los Angeles',
+    position: 'Undergraduate Researcher',
+    url: 'http://www.buonomanolab.com/',
+    startDate: '2012-07-01',
+    endDate: '2015-07-01',
+    summary: '',
     highlights: [
-      'Trained a model for the Brazilian Coffee Scenes Dataset with better than state of the art accuracy.',
-      'Collected training sets on the ground in Uganda. Built dashboards to visualize work of surveyors using Flask, React, and D3.',
-      'Performed supporting analysis to ensure data integrity using Pandas, t-SNE, SVM\'s, and other techniques.',
+      'Developed a graphical user interface (GUI) in MATLAB for conducting a novel experiment according to protocol',
+      'Used machine learning classification algorithms (Support Vector Machines) to investigate the temporal information in neural population responses. Scripted publication-quality figures such as rasters, PSTHs, and plots of neural activity.',
+      'Oversaw a multi-year in vivo electrophysiology experiment investigating how the brain encodes spatial and temporal sensory events on timescales of 10-100s of milliseconds.',
     ],
   },
   {
-    name: 'Zenysis',
-    position: 'Software Engineering Contractor',
-    url: 'https://zenysis.com',
-    startDate: '2016-02-01',
-    endDate: '2016-03-01',
-    summary: `Zenysis develops data analysis and visualization tools for government agencies and international organizations.
-    Their solutions help improve decision-making by integrating and analyzing large-scale datasets from various sources.
-    I was the second contributor to the codebase. We built data visualization tools and tackled complex data ingestion
-    challenges for the Ethiopian Ministry of Health.`,
-    highlights: [
-      'Worked in Addis Ababa for the Ethiopian Ministry of Health and built data visualization tools in React and Flask.',
-      'Ingested multiple databases with different alphabets, calendars, and without official spellings of geographic locations.',
-    ],
-  },
-  {
-    name: 'Matroid',
-    position: 'Co-founder',
-    url: 'https://matroid.com',
-    startDate: '2015-07-01',
-    endDate: '2016-01-01',
-    summary: `Matroid is a computer vision platform for creating and deploying detectors. Detectors help customers identify objects,
-    events, or patterns in images and videos without requiring machine learning or coding expertise. I played a crucial role in
-    defining the company's vision. I was responsible for architecting and building the initial product. I left shortly after the
-    Series A to focus on Arthena.`,
-    highlights: [
-      'Developed end to end machine learning pipeline to train visual classifiers from keywords using Caffe, Node.JS, Redis, MongoDB, and other technologies.',
-    ],
-  },
-  {
-    name: 'Planet',
-    position: 'Missions Intern',
-    url: 'https://planet.com',
+    name: 'UCLA Brain Research Institute, Microscopic Techniques & Electron Microscopy Core Facility',
+    position: 'Laboratory Assistant (part-time)',
+    url: 'https://bri.ucla.edu/',
     startDate: '2014-06-01',
-    endDate: '2015-01-01',
+    endDate: '2014-09-01',
     highlights: [
-      'Built models to improve image quality, signal to noise ratio, and dynamic range.',
-      'Performed statistical analysis of image quality in Matlab and Python.  Developed flight software in C++.',
-      'Organized first hackathon, prototyped hardware, and designed and built photography equipment for rocket launches.',
-    ],
-  },
-  {
-    name: 'Planetary Resources',
-    position: 'Avionics Intern',
-    startDate: '2014-01-01',
-    endDate: '2014-05-01',
-    url: 'http://planetaryresources.com',
-    highlights: [
-      'Developed simulations in Matlab for Attitude Determination and Control Subsystem.',
-      'Developed processes for in lab testing and characterization of various subsystems.',
-      'Assembled flight hardware in cleanroom.',
-    ],
-  },
-  {
-    name: 'Facebook',
-    position: 'Software Engineer Intern',
-    url: 'https://facebook.com',
-    startDate: '2013-06-01',
-    endDate: '2013-09-01',
-    highlights: [
-      'Developed software in python for automated testing of servers.',
-      'Performed statistical analysis with R, HIVE to assist in triage of malfunctioning servers.',
-      'Worked with vendors and ODM\'s during triage to assist in risk mitigation.',
-    ],
-  },
-  {
-    name: 'SEDS-USA',
-    position: 'At Large Board Member',
-    url: 'http://seds.org',
-    startDate: '2013-10-01',
-    endDate: '2014-10-01',
-    highlights: [
-      'Elected to Board of Directors of the USA\'s largest student space advocacy group based on 5+ years of work with SEDS.',
-      'Responsibilities included: organizational strategy, conference presentations, fundraising, special projects, promoting SEDS nationally and internationally, and photographing conferences.',
-    ],
-  },
-  {
-    name: 'UB Nanosatellite Program',
-    position: 'Co-founder, Program Manager',
-    url: 'https://ubnl.space/',
-    startDate: '2010-10-01',
-    endDate: '2012-06-01',
-    highlights: [
-      'Coauthored grant to build a multi-spectral imaging satellite as part of the AFRL University Nanosatellite Program.',
-      'Lead a team of 60 students through satellite development life cycle. Served as a technical expert, acquired intimate working knowledge of satellite subsystems.  Solicited funding through NASA, AFOSR, and several corporate sponsors.',
+      'Developed film and facilitated access to UCLA’s common equipment JEOL 100CX transmission electron microscope.',
+      'Performed histology including cryosectioning, mounting, and staining of brain and other tissues',
     ],
   },
 ];
