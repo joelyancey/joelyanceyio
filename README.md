@@ -1,6 +1,6 @@
 
 This is a fork of a website template developed by [@mldangelo](https://github.com/mldangelo). Thank you very much
-to Michael for assembling [this code](https://github.com/mldangelo/personal-site).
+to Michael for creating [this template](https://github.com/mldangelo/personal-site).
 
 mldangelo's Acknowledgements
 
