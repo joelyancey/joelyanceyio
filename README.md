@@ -1,4 +1,4 @@
-For now my personal webpage for the internet at large.
+Source code for [joelyancey.io](joelyancey.io)
 
 This is a fork of a website template developed by [@mldangelo](https://github.com/mldangelo). Thank you very much
 to Michael for creating [this template](https://github.com/mldangelo/personal-site).
