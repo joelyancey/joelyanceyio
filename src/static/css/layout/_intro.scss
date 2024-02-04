@@ -10,25 +10,26 @@
 		.logo {
 			border-bottom: 0;
 			display: inline-block;
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
+			//margin: 0 0 (_size(element-margin) * 0.5) 0;
 			overflow: hidden;
 			position: relative;
 
 			img {
-				width: 10em;
-				border-radius: 50%;
+				width: 6em;
+				border-radius: 10%;
 				display: block;
+				//display: inline;
 			}
 		}
 
 		header {
 			h2 {
-				font-size: 1.5em;
-				font-weight: _font(weight-heading-extrabold);
+				font-size: 16px;
+				//font-weight: _font(weight-heading-extrabold);
 			}
 
 			p {
-				font-size: 0.8em;
+				font-size: 12px;
 			}
 		}
 
@@ -38,7 +39,7 @@
 
 			header {
 				h2 {
-					font-size: 2em;
+					font-size: 16px;
 				}
 
 				p {

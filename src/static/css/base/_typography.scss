@@ -9,7 +9,7 @@
 	body, input, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
-		font-size: 14pt;
+		font-size: 12pt;
 		font-weight: _font(weight);
 		line-height: 1.75;
 
@@ -79,7 +79,7 @@
 		letter-spacing: _font(kerning-heading);
 		line-height: 1.65;
 		margin: 0 0 (_size(element-margin) * 0.5) 0;
-		text-transform: uppercase;
+		//text-transform: uppercase;
 
 		a {
 			color: inherit;
@@ -92,11 +92,11 @@
 	}
 
 	h3 {
-		font-size: 0.9em;
+		font-size: 1em;
 	}
 
 	h4 {
-		font-size: 0.7em;
+		font-size: 0.85em;
 	}
 
 	h5 {

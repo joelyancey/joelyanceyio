@@ -1,7 +1,7 @@
 const routes = [
   {
     index: true,
-    label: 'Joel Yancey',
+    label: 'HOME',
     path: '/',
   },
   // {
@@ -9,21 +9,21 @@ const routes = [
   //   path: '/about',
   // },
   {
-    label: 'Resume',
+    label: 'RESUME',
     path: '/resume',
   },
   {
-    label: 'Posters',
+    label: 'POSTERS',
     path: '/projects',
   },
   // {
   //   label: 'Stats',
   //   path: '/stats',
   // },
-  // {
-  //   label: 'Contact',
-  //   path: '/contact',
-  // },
+  {
+    label: 'CONTACT',
+    path: '/contact',
+  },
 ];
 
 export default routes;

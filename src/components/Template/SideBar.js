@@ -17,17 +17,17 @@ const SideBar = () => (
       </header>
     </section>
 
-    <section className="blurb">
-      <ul className="actions">
-        <li>
-          {}
-        </li>
-      </ul>
-    </section>
-
     <section id="footer">
       <ContactIcons />
     </section>
+
+    {/* <section className="blurb"> */}
+    {/*   <ul className="actions"> */}
+    {/*     <li> */}
+    {/*       {} */}
+    {/*     </li> */}
+    {/*   </ul> */}
+    {/* </section> */}
   </section>
 );
 
