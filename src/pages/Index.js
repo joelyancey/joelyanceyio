@@ -30,10 +30,8 @@ const Index = () => (
         and Bioinformatics Minor. The minor was through the UCLA Samueli School of Engineering.
         For 3 years as an undergraduate, I worked closely with professor Dean Buonomano on a novel
         <i> in vivo</i> research experiment investigating how the brain encodes time on the
-        timescales of 10s to 100s of milliseconds. That data analysis involved SVM machine
-        learning algorithms and that coding was so much fun. My poster that resulted was titled
-        Decoding Stimulus Features From Cortical Population Responses. I discussed this research
-        contemporaneously on the And Another Thing Podcast (UCLA Radio):
+        timescales of 10s to 100s of milliseconds. My poster that resulted was titled
+        Decoding Stimulus Features From Cortical Population Responses.
       </p>
       <p>
         Over the years I completed 15 courses with coding components, in languages such as C++,
@@ -83,6 +81,16 @@ const Index = () => (
         love building practical GUIs with emphasis on
         User Experience (UX).
       </p>
+      {/* <a */}
+      {/*   href="https://joelyancey.io/resume" */}
+      {/*   className="image" */}
+      {/* ><img src="images/resume.png" alt="view resume" width="180" /> */}
+      {/* </a> */}
+      {/* <a */}
+      {/*   href="https://joelyancey.io/posters" */}
+      {/*   className="image" */}
+      {/* ><img src="images/posters.png" alt="view posters" width="180" /> */}
+      {/* </a> */}
     </article>
   </Main>
 );
