@@ -18,7 +18,7 @@ const Index = () => (
         frameBorder="0"
         style={{
           float: 'right',
-          padding: 10,
+          padding: 20,
         }}
         // style={{ 'align-self': 'flex-end' }}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -59,7 +59,7 @@ const Index = () => (
         frameBorder="0"
         style={{
           float: 'left',
-          padding: 10,
+          padding: 20,
         }}
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowFullScreen
