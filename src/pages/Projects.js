@@ -9,7 +9,7 @@ import data from '../data/projects';
 const Projects = () => (
   <Main
     title="Projects"
-    description="Joel Yancey's poster presentations."
+    description="Joel G. Yancey's poster presentations."
   >
     <article className="post" id="projects">
       <header>
@@ -24,6 +24,20 @@ const Projects = () => (
         />
       ))}
     </article>
+    {/* <img */}
+    {/*   src="images/sfn22.png" */}
+    {/*   alt="SfN 2022 abstract submission" */}
+    {/*   width="100%" */}
+    {/*   height="auto" */}
+    {/*   style={{ 'max-width': '1080em' }} */}
+    {/* /> */}
+    {/* <img */}
+    {/*   src="images/taccster22.jpg" */}
+    {/*   alt="TACCSTER 2022" */}
+    {/*   width="100%" */}
+    {/*   height="auto" */}
+    {/*   style={{ 'max-width': '1080em' }} */}
+    {/* /> */}
   </Main>
 );
 

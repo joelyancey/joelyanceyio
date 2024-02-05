@@ -21,6 +21,10 @@ const routes = [
   //   path: '/stats',
   // },
   {
+    label: 'IMGS',
+    path: '/imgs',
+  },
+  {
     label: 'CONTACT',
     path: '/contact',
   },

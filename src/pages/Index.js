@@ -4,37 +4,19 @@ import Main from '../layouts/Main';
 
 // const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
 // To use: src={`${PUBLIC_URL}/images/halloween2013-1.gif`}
-
 const Index = () => (
   <Main
-    description={"Joel Yancey's website"}
+    description={"Joel G. Yancey's website"}
   >
     <article className="post" id="index">
-      <iframe
-        width="300"
-        height="190"
-        src="https://www.youtube.com/embed/AZcQfiHGj8g?si=ZXK_Cp_4YtOg9qD0"
-        title="YouTube video player"
-        frameBorder="0"
-        style={{
-          float: 'right',
-          padding: 12,
-        }}
-        // style={{ 'align-self': 'flex-end' }}
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      />
-
       <p>
         My name is Joel and I love Linux. In 2017 I graduated from UCLA with a BSc in Neuroscience
         and Bioinformatics Minor. The minor was through the UCLA Samueli School of Engineering.
         For 3 years as an undergraduate, I worked closely with professor Dean Buonomano on a novel
         <i> in vivo</i> research experiment investigating how the brain encodes time on the
         timescales of 10s to 100s of milliseconds. My poster that resulted was titled
-        Decoding Stimulus Features From Cortical Population Responses.
-      </p>
-      <p>
-        Over the years I completed 15 courses with coding components, in languages such as C++,
+        Decoding Stimulus Features From Cortical Population Responses. Over
+        the years I completed 15 courses with coding components, in languages such as C++,
         Python, and R. I have an irrational love of MATLAB since I programmed my very first
         graphical user interface (GUI) with it circa 2012. By 2014 I had completed an entire
         programming series at UCLA and began taking upper division CS courses such as
@@ -49,22 +31,7 @@ const Index = () => (
         > HERE
         </a>
         and it has been compiled and run successfully on Debian 11, Ubuntu 20.04, macOS 11.6.1,
-        and Windows 10. Here is a brief demo I recorded in March of 2015:
-      </p>
-      <iframe
-        width="300"
-        height="190"
-        src="https://www.youtube.com/embed/icMw4tYu0_k?si=j5YahgoVNlHHt4bT"
-        title="YouTube video player"
-        frameBorder="0"
-        style={{
-          float: 'left',
-          padding: 12,
-        }}
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        allowFullScreen
-      />
-      <p>
+        and Windows 10. Below is a brief demo I recorded in March of 2015.
         In 2020 I earned a certificate in UNIX
         & Linux System Administration at UCSD Extension. For 16 months I worked in
         a neurodegeneration lab at Sanford Burnham Prebys Medical Discovery Institute located
@@ -91,6 +58,38 @@ const Index = () => (
       {/*   className="image" */}
       {/* ><img src="images/posters.png" alt="view posters" width="180" /> */}
       {/* </a> */}
+      {/* <> */}
+      <span><iframe
+        src="https://www.youtube.com/embed/AZcQfiHGj8g?si=ZXK_Cp_4YtOg9qD0"
+        title="YouTube video player"
+        frameBorder="0"
+        width="50%"
+        height="auto"
+        style={{ 'max-width': '540em' }}
+        // style={{ 'align-self': 'flex-end' }}
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      />
+      </span>
+      <span><iframe
+        src="https://www.youtube.com/embed/icMw4tYu0_k?si=j5YahgoVNlHHt4bT"
+        title="YouTube video player"
+        frameBorder="0"
+        width="50%"
+        height="auto"
+        style={{ 'max-width': '540em' }}
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+      />
+      </span>
+      {/* </> */}
+      {/* <img */}
+      {/*   src="images/alignem_animation-full.gif" */}
+      {/*   alt="doodle by Skiter Chappell" */}
+      {/*   width="100%" */}
+      {/*   height="auto" */}
+      {/*   style={{ 'max-width': '1080em' }} */}
+      {/* /> */}
     </article>
   </Main>
 );

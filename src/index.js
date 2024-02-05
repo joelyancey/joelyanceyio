@@ -18,3 +18,10 @@ if (rootElement.hasChildNodes()) {
   const root = createRoot(rootElement);
   root.render(<StrictApp />);
 }
+
+// -jy From Cloudflare documentation
+// export default {
+//   async fetch(request, env, ctx) {
+//     return new Response("Hello World!");
+//   },
+// };

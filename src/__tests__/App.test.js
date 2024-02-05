@@ -41,7 +41,7 @@ describe('renders the app', () => {
   });
 
   it('should render the title', async () => {
-    expect(document.title).toBe('Joel Yancey');
+    expect(document.title).toBe('Joel G. Yancey');
   });
 
   it('can navigate to /about', async () => {
@@ -79,6 +79,17 @@ describe('renders the app', () => {
     });
     expect(document.title).toContain('Projects |');
     expect(window.location.pathname).toBe('/posters');
+  });
+
+  it('can navigate to /imgs', async () => {
+    expect.assertions(3);
+    const contactLink = document.querySelector('#header > nav > ul > li:nth-child(3) > a');
+    expect(contactLink).toBeInTheDocument();
+    await act(async () => {
+      await contactLink.click();
+    });
+    // expect(document.title).toContain('Imgs |');
+    expect(window.location.pathname).toBe('/imgs');
   });
 
   it('can navigate to /stats', async () => {

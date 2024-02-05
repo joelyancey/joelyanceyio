@@ -39,7 +39,7 @@ Main.defaultProps = {
   children: null,
   fullPage: false,
   title: null,
-  description: "Joel Yancey's personal website.",
+  description: "Joel G. Yancey's personal website.",
 };
 
 export default Main;

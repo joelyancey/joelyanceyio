@@ -26,11 +26,11 @@ import Main from '../layouts/Main';
 const Resume = () => (
   <Main
     title="Resume"
-    description="Joel Yancey's Resume. UCLA Neuroscience and Bioinformatics, UNIX & Linux System Administration Certificate UCSD Extension, Scientific Programmer, Computational Neurobiology Laboratory at the Salk Institute for Biological Studies"
+    description="Joel G. Yancey's Resume. UCLA Neuroscience and Bioinformatics, UNIX & Linux System Administration Certificate UCSD Extension, Scientific Programmer, Computational Neurobiology Laboratory at the Salk Institute for Biological Studies"
   >
     <article className="post" id="resume">
       <iframe
-        title="Joel Yancey's resume"
+        title="Joel G. Yancey's resume"
         src="/documents/Joel-Yancey-resume.pdf"
         style={{
           width: '100%',

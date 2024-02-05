@@ -8,7 +8,7 @@ import Main from '../layouts/Main';
 const Contact = () => (
   <Main
     title="Contact"
-    description="Contact Joel Yancey at j.y@ucla.edu (to report issues with the site use joelyancey.io@gmail.com)"
+    description="Contact Joel"
   >
     <article className="post" id="contact">
       {/* <header> */}
@@ -27,6 +27,7 @@ const Contact = () => (
       {/* </div> */}
       {/* <ContactIcons /> */}
     </article>
+
   </Main>
 );
 
