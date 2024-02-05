@@ -16,15 +16,22 @@ const Imgs = () => (
         style={{ 'max-width': '1080em' }}
       />
       <img
-        src="images/ls6.jpg"
-        alt="Lonestar6 HPC at Texas Advanced Computing Center (1)"
+        src="images/equinox.jpg"
+        alt="Joel Yancey, Tom Bartol at Society for Neuroscience 2022"
         width="100%"
         height="auto"
         style={{ 'max-width': '1080em' }}
       />
       <img
-        src="images/mcell.png"
-        alt="MCell"
+        src="images/ls6_2.jpg"
+        alt="Lonestar6 HPC at Texas Advanced Computing Center (2)"
+        width="100%"
+        height="auto"
+        style={{ 'max-width': '1080em' }}
+      />
+      <img
+        src="images/ls6.jpg"
+        alt="Lonestar6 HPC at Texas Advanced Computing Center (1)"
         width="100%"
         height="auto"
         style={{ 'max-width': '1080em' }}
@@ -44,8 +51,22 @@ const Imgs = () => (
         style={{ 'max-width': '1080em' }}
       />
       <img
-        src="images/ls6_2.jpg"
-        alt="Lonestar6 HPC at Texas Advanced Computing Center (2)"
+        src="images/mcell.png"
+        alt="MCell"
+        width="100%"
+        height="auto"
+        style={{ 'max-width': '1080em' }}
+      />
+      <img
+        src="images/guiAug24.png"
+        alt="MCell"
+        width="100%"
+        height="auto"
+        style={{ 'max-width': '1080em' }}
+      />
+      <img
+        src="images/sfn-poster-2022.jpg"
+        alt="Joel Yancey, Tom Bartol at Society for Neuroscience 2022"
         width="100%"
         height="auto"
         style={{ 'max-width': '1080em' }}
@@ -65,13 +86,6 @@ const Imgs = () => (
       {/*   height="auto" */}
       {/*   style={{ 'max-width': '1080em' }} */}
       {/* /> */}
-      <img
-        src="images/guiAug24.png"
-        alt="MCell"
-        width="100%"
-        height="auto"
-        style={{ 'max-width': '1080em' }}
-      />
       {/* <img */}
       {/*   src="images/tacc-symposium1.jpg" */}
       {/*   alt="TACC symposium" */}
@@ -108,6 +122,13 @@ const Imgs = () => (
         style={{ 'max-width': '1080em' }}
       />
       <img
+        src="images/joel-kristen-tom.jpg"
+        alt="Joel Yancey, Kristen Harris, Tom Bartol"
+        width="100%"
+        height="auto"
+        style={{ 'max-width': '1080em' }}
+      />
+      <img
         src="images/txcapitoldome.jpg"
         alt="dome of Texas capitol building"
         width="100%"
@@ -115,8 +136,43 @@ const Imgs = () => (
         style={{ 'max-width': '1080em' }}
       />
       <img
+        src="images/xu-huang-lab1.jpg"
+        alt="Xu/Huang Lab circa 2018-2019"
+        width="100%"
+        height="auto"
+        style={{ 'max-width': '1080em' }}
+      />
+      <img
+        src="images/xu-huang-lab2.jpg"
+        alt="Xu/Huang Lab circa 2018-2019"
+        width="100%"
+        height="auto"
+        style={{ 'max-width': '1080em' }}
+      />
+      <img
         src="images/emguy-static.png"
         alt="doodle by Skiter Chappell"
+        width="100%"
+        height="auto"
+        style={{ 'max-width': '1080em' }}
+      />
+      <img
+        src="images/sunset.jpg"
+        alt="Salk sunset (2019-12-07)"
+        width="100%"
+        height="auto"
+        style={{ 'max-width': '1080em' }}
+      />
+      <img
+        src="images/real_programmers.png"
+        alt="Real Programmers (xkcd 378) - xkcd.com/378/"
+        width="100%"
+        height="auto"
+        style={{ 'max-width': '1080em' }}
+      />
+      <img
+        src="images/sfn22.png"
+        alt="TACC big resolution"
         width="100%"
         height="auto"
         style={{ 'max-width': '1080em' }}
