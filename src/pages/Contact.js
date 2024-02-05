@@ -11,9 +11,8 @@ const Contact = () => (
     description="Contact Joel"
   >
     <article className="post" id="contact">
-      <h3>email personal : j.y@ucla.edu (personal)</h3>
-      <h3>email other : joelyancey.io@gmail.com (web admin)</h3>
-      <h3>phone : 916dash524dash1990</h3>
+      <h3>tubes : joelyancey.io@gmail</h3>
+      <h3>rotary : 916_524_1ninenine0</h3>
       <h3>San Diego, CA</h3>
       {/* <div className="title"> */}
       {/*   <h2><Link to="/contact">Contact</Link></h2> */}
