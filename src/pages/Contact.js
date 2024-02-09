@@ -7,8 +7,8 @@ import Main from '../layouts/Main';
 
 const Contact = () => (
   <Main
-    title="Contact"
-    description="Contact Joel"
+    title="Rotary"
+    description="Get into touch with Joel Yancey"
   >
     <article className="post" id="contact">
       <h3>tubes : joelyancey.io@gmail</h3>

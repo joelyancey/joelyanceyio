@@ -16,6 +16,13 @@ const Imgs = () => (
         style={{ 'max-width': '1080em' }}
       />
       <img
+        src="images/cpu.webp"
+        alt="GEFORCE RTX"
+        width="100%"
+        height="auto"
+        style={{ 'max-width': '1080em' }}
+      />
+      <img
         src="images/equinox.jpg"
         alt="Joel Yancey, Tom Bartol at Society for Neuroscience 2022"
         width="100%"

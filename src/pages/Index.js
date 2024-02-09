@@ -18,7 +18,7 @@ const Index = () => (
         timescales of 10s to 100s of milliseconds. My poster that resulted was titled
         Decoding Stimulus Features From Cortical Population Responses. Over
         the years I completed 15 courses with coding components, in languages such as C++,
-        Python, and R. I have an irrational love of MATLAB since I programmed my very first
+        Python, and R. I have an irrational love of MATLAB since I programmed my first
         graphical user interface (GUI) with it circa 2012. By 2014 I had completed a full
         programming series in C++ at UCLA. My final project for Advanced Programming (PIC10C)
         I called the Neuroscience Model Builder (see below, left). I developed it
