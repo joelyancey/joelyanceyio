@@ -163,6 +163,7 @@ const Imgs = () => (
         height="auto"
         style={{ 'max-width': '1080em' }}
       />
+      Doodle by Skiter Chappell.
       <img
         src="images/sunset.jpg"
         alt="Salk sunset (2019-12-07)"
