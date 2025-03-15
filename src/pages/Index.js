@@ -10,7 +10,7 @@ const Index = () => (
   >
     <article className="post" id="index">
       <p>
-        My name is Joel and I love Linux. In 2017 I graduated from UCLA with a BSc in Neuroscience 
+        My name is Joel and I love Linux. In 2017 I graduated from UCLA with a BSc in Neuroscience
         and Bioinformatics Minor. The minor was through the UCLA Samueli School of Engineering.
         For 3 years as an undergraduate, I worked closely with professor Dean Buonomano on a novel
         <i> in vivo</i> research experiment investigating how the brain encodes time on the
