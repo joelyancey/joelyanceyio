@@ -10,8 +10,7 @@ const Index = () => (
   >
     <article className="post" id="index">
       <p>
-        [Under Construction!] My name is Joel and I love Linux. In 2017 I
-        graduated from UCLA with a BSc in Neuroscience
+        My name is Joel and I love Linux. In 2017 I graduated from UCLA with a BSc in Neuroscience 
         and Bioinformatics Minor. The minor was through the UCLA Samueli School of Engineering.
         For 3 years as an undergraduate, I worked closely with professor Dean Buonomano on a novel
         <i> in vivo</i> research experiment investigating how the brain encodes time on the
@@ -44,7 +43,7 @@ const Index = () => (
         (see below, right). I deployed
         is on the 3 petaflop computer Lonestar6 at the Texas Advanced Computing Center. I
         am particularly adept at and have a love for building practical user
-        interfaces with emphasis on User Experience (UX) and data-driven design.
+        interfaces with emphasis on User Experience (UX) and data-driven design principles.
       </p>
       {/* <a */}
       {/*   href="https://joelyancey.io/resume" */}
